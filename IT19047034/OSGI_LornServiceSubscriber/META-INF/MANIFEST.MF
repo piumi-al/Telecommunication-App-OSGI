@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGI_LornServiceSubscriber
+Bundle-SymbolicName: OSGI_LornServiceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi_lornservicesubscriber.Activator
+Import-Package: loanpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-15
